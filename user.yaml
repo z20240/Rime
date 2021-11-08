@@ -1,0 +1,9 @@
+var:
+  last_build_time: 1636362267
+  option:
+    ascii_punct: true
+    full_shape: true
+    simplification: true
+  previously_selected_schema: bopomo_onion
+  schema_access_time:
+    bopomo_onion: 1636361956
