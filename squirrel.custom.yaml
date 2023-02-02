@@ -3,7 +3,7 @@
 
 patch:
   style/color_scheme: mac_white #apathy #psionics #mac_white #mac_white2
-#  style/horizontal: true      # 候選橫排
+  style/horizontal: false      # 候選橫排
   style/inline_preedit: true #false
   style/corner_radius: 4 #10
   style/line_spacing: 4 #6 #1
@@ -11,42 +11,29 @@ patch:
   style/candidate_format: '%c. %@'
   style/font_face: 'Times-Roman,PingFangTC-Light,AppleColorEmoji' #,HanaMinA,HanaMinB
   style/font_point: 12 #21
-  style/label_font_face: 'Andale Mono'
-  style/label_font_point: 14 #12 #18
-
-  preset_color_schemes/metroblue:
-    name: "现代蓝／Metro Blue"
-    author: "Prcuvu <prcuvu@gmail.com>"
-    text_color: 0x000000
-    back_color: 0xffffff
-    border_color: 0xd77800
-    label_color: 0x838383
-    hilited_text_color: 0x000000
-    hilited_back_color: 0xffffff
-    candidate_text_color: 0x000000
-    comment_text_color: 0x000000
-    hilited_candidate_text_color: 0xffffff
-    hilited_comment_text_color: 0xffffff
-    hilited_candidate_back_color: 0xd77800
-    hilited_label_color: 0xffffff
+  style/label_font_face: 'Times-Roman,Andale Mono'
+  style/label_font_point: 12 #12 #18
+  style/comment_font_point: 12 # 提示的字体大小
+  style/comment_font_face: 'Times-Roman,Andale Mono' # 提示的字体樣式
 
   preset_color_schemes/mac_white:
     name: 蘋果白／Mac White
     author: Yang
     candidate_format: ' %c %@ '
-#    alpha: 1
-#    horizontal: true
-#    label_font_face: 'PingFang SC Light'
-    label_color: 0x96a8a7
+    label_color: 0x000000 # 0x96a8a7
     text_color: 0x000000
-    back_color: 0xffffff
-#    border_color: 0xBDBDBD
+    back_color: 0x9affffff
     hilited_text_color: 0x96a8a7 #0xE3F0FD
     hilited_candidate_text_color: 0x000000
     hilited_candidate_label_color: 0x96a8a7
     hilited_candidate_back_color: 0xFFE4CE #0xFEF0E4
-    comment_text_color: 0x96a8a7
-    hilited_comment_text_color: 0x96a8a7
+    comment_text_color: 0x333333 # 0x96a8a7             # 簡繁標籤文字顏色
+    hilited_comment_text_color: 0x333333 # 0x96a8a7     # 簡繁標籤文字顏色
+    translucency: true # 背景透明
+#    border_color: 0xBDBDBD
+#    alpha: 1
+#    horizontal: true
+#    label_font_face: 'PingFang SC Light'
 
   preset_color_schemes/mac_white2:
     name: 蘋果白2／Mac White2
@@ -65,6 +52,22 @@ patch:
     hilited_candidate_back_color: 0xff9d2e #0xFFE4CE #0xFEF0E4
     comment_text_color: 0x96a8a7
     hilited_comment_text_color: 0xD5D6BF #0x96a8a7
+
+  preset_color_schemes/metroblue:
+    name: "现代蓝／Metro Blue"
+    author: "Prcuvu <prcuvu@gmail.com>"
+    text_color: 0x000000
+    back_color: 0xffffff
+    border_color: 0xd77800
+    label_color: 0x838383
+    hilited_text_color: 0x000000
+    hilited_back_color: 0xffffff
+    candidate_text_color: 0x000000
+    comment_text_color: 0x000000
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_candidate_back_color: 0xd77800
+    hilited_label_color: 0xffffff
 
   preset_color_schemes/system_blue:
     name: "系统蓝／System Blue"
