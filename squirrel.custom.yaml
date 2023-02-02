@@ -9,22 +9,22 @@ patch:
   style/line_spacing: 4 #6 #1
   style/spacing: 4 #10 #5
   style/candidate_format: '%c. %@'
-  style/font_face: 'Times-Roman,PingFangTC-Light,AppleColorEmoji' #,HanaMinA,HanaMinB
+  style/font_face: 'Arial,Times-Roman,PingFangTC-Light,AppleColorEmoji' #,HanaMinA,HanaMinB
   style/font_point: 12 #21
-  style/label_font_face: 'Times-Roman,Andale Mono'
+  style/label_font_face: 'Arial,Times-Roman,PingFangTC-Light,AppleColorEmoji,Andale Mono'
   style/label_font_point: 12 #12 #18
   style/comment_font_point: 12 # 提示的字体大小
-  style/comment_font_face: 'Times-Roman,Andale Mono' # 提示的字体樣式
+  style/comment_font_face: 'Arial,Times-Roman,PingFangTC-Light,AppleColorEmoji,Andale Mono' # 提示的字体樣式
 
   preset_color_schemes/mac_white:
     name: 蘋果白／Mac White
     author: Yang
     candidate_format: ' %c %@ '
-    label_color: 0x000000 # 0x96a8a7
-    text_color: 0x000000
+    label_color: 0x333333 # 0x96a8a7
+    text_color: 0x333333
     back_color: 0x9affffff
     hilited_text_color: 0x96a8a7 #0xE3F0FD
-    hilited_candidate_text_color: 0x000000
+    hilited_candidate_text_color: 0x333333
     hilited_candidate_label_color: 0x96a8a7
     hilited_candidate_back_color: 0xFFE4CE #0xFEF0E4
     comment_text_color: 0x333333 # 0x96a8a7             # 簡繁標籤文字顏色
